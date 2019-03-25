@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>DG/UX tul</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <style>
+         .navbar {
+         margin-bottom: 0;
+         border-radius: 0;
+         background-color: #67B6E3;
+         }
+         .row.content {height: 510px}
+         .sidenav {
+         padding-top: 0px;
+         padding-left: 0px;
+         background-color: #f1f1f1;
+         height: 120%;
+         }
+         footer {
+         background-color: #67B6E3;
+         color: black;
+         padding: 17px;
+         }
+         @media screen and (max-width: 767px) {
+         .sidenav {
+         height: auto;
+         padding: 15px;
+         }
+         .row.content {height:auto;} 
+         }
+         .dropdown-menu {
+         left: 30px;
+         background-color: #2091D2;
+         }
+         .dropdown {
+         margin-top: 180px;
+         }
+         .nav.navbar-nav li a {
+         color:black;       
+         }
+         #topheader .navbar-nav li.active > a {
+         background-color: #333;
+         color: #fff;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="topheader">
+         <nav class="navbar navbar-default">
+            <div class="container-fluid">
+               <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </button>
+               </div>
+               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                     <li> <a href="index.html">Bevezető</a></li>
+                     <li class="active"><a href="oldal2.html">Tulajdonságok<span class="sr-only">(current)</span></a></li>
+                     <li><a href="oldal3.html">Egyéb</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="container-fluid text-center">
+         <div class="row content">
+            <div class="col-sm-2 sidenav">
+               <img src="pictures/logo.png" alt="logo-dgux" style="width:110%" align="left"/>
+               <div class="dropdown" >
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">DG/UX Verziói 
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                     <li>1985: DG/UX 1.00</li>
+                     <li>1987: DG/UX 3.10</li>
+                     <li>1988: DG/UX 4.00</li>
+                     <li>1991: DG/UX 5.4</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="col-sm-8 text-left">
+               <h1><b>Tulajdonságok</b></h1>
+               <p>Az Aviion platformon elérhető volt a többprocesszoros megoldás a többi Unix rendszerekkel ellentétben.
+<br>Ez az OS továbbá sokkal teljesebb volt, mint többi Unix-os társa, például tartalmazott teljes C fordítót (gcc), valamint logikai hangmenedzsert.
+<br><ul><li>Kicsi és kompakt volt, ellenben rengeteg funkciót tett elérhetővé.</li>
+<li>Egyszerű és könnyű volt installálni és nem követelt hatalmas memória vagy processzoros teljesítményt.</li></ul>
+Például, egy Aviion platformon támogatott több száz felhasználó számára egyidőbeli szöveges terminálhasználatot.
+<br><br>Érdekességképp, a rendszer fejlődése során, pontosabban, amikor kiadták a  4.00 verziót 1988-ban, már egy újratervezett, újraimplementált kernellel és fájlrendszerrel bocsátották piacra. A célja a DG-nek ezzel az volt, hogy növeljék a funkcionális lehetőségeket, és lehessen fejleszteni valamint futtatni többféle applikációt. 
+</p>
+               <table>
+                  <td align = "center"><img src="pictures/dgpingvin.png" alt="pingvin-dgux" style="width:65%"/></td>
+               </table>
+            </div>
+            <div class="col-sm-2 sidenav">
+               <img src="pictures/aviion2.jpg" alt="aviion-pic" style="width:110%" align="left"/> 
+               <div class="dropdown" >
+                  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Aviion szerver verziók 
+                  <span class="caret"></span></button>
+                  <ul class="dropdown-menu">
+                     <li>AV 9500</li>
+                     <li>AV 10000</li>
+                     <li>AV 20000</li>
+                     <li>AV 25000</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <footer class="container-fluid text-center">
+         <p>Created by Tóth Péter</p>
+      </footer>
+   </body>
+</html>
+
